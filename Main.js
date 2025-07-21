@@ -123,7 +123,7 @@ function randomizeImgs() {
       // GET Random Number
       let RandomNumber = Math.floor(Math.random() * Arr.length);
       // Change Background Image Url
-      land.style.backgroundImage = `url("/Imgs/${Arr[RandomNumber]}")`;
+      land.style.backgroundImage = `url("./Imgs/${Arr[RandomNumber]}")`;
     }, 3000);
   }
 }
